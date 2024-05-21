@@ -8,5 +8,13 @@
 		"ghcr.io/devcontainers/features/azure-cli:1": {
 			"version": "latest"
 			}
-		}
+		},
+	"forwardPorts": [3000],
+	"portsAttributes": {
+ 	 	"3000": {
+    	"label": "app",
+    	"onAutoForward": "openBrowser"
+ 	 	}
+	}
+
 }
